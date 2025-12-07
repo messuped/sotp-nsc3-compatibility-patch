@@ -435,7 +435,7 @@ cruiser = {
 	required_component_set = "combat_computers"
 	required_component_set = "ai_behaviour"
 	required_component_set = "special_ship_slot"
-	required_component_set = "nsc_strike_cruiser_aura"
+	#required_component_set = "nsc_strike_cruiser_aura"
 
 	resources = {
 		category = ships
