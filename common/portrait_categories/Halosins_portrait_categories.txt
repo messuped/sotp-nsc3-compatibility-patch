@@ -1,0 +1,26 @@
+# Categories of portrait sets used in empire design view.
+# Portrait sets are listed in portrait_sets database.
+
+UNSC_portrait = {
+	name = UNSC
+
+	sets = {
+		UNSC
+	}
+}
+
+Covenant_portrait = {
+	name = Covenant
+
+	sets = {
+		Covenant
+	}
+}
+
+Prehuman_portrait = {
+	name = Prehuman
+
+	sets = {
+		Prehuman
+	}
+}

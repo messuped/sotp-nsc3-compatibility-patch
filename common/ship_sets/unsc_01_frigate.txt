@@ -1,0 +1,6 @@
+unsc_01 = {
+    entity = {
+        ship_size = frigate
+        entity = "unsc_01_frigate_entity"
+    }
+}

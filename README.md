@@ -1,0 +1,1 @@
+# sotp-nsc3-compatibility-patch
