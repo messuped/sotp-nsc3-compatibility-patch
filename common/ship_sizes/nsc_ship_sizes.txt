@@ -548,10 +548,6 @@ Battlecruiser = {
 		}
 	}
 
-	possible_construction = {
-		nsc_modmenu_game_content_on_trigger = { CATEGORY = ship SUBCAT = class ID = Battlecruiser }
-	}
-
 	min_upgrade_cost = { alloys = 6 }
 
 	ai_ship_data = {
@@ -730,10 +726,6 @@ Carrier = {
 		}
 	}
 
-	possible_construction = {
-		nsc_modmenu_game_content_on_trigger = { CATEGORY = ship SUBCAT = class ID = Carrier }
-	}
-
 	min_upgrade_cost = { alloys = 10 }
 
 	ai_ship_data = {
@@ -792,10 +784,6 @@ Dreadnought = {
 			energy = 3.4
 			alloys = 1.2
 		}
-	}
-
-	possible_construction = {
-		nsc_modmenu_game_content_on_trigger = { CATEGORY = ship SUBCAT = class ID = Dreadnought }
 	}
 
 	min_upgrade_cost = { alloys = 12 }
@@ -974,7 +962,6 @@ Flagship = {
 			is_scope_type = megastructure
 			is_megastructure_type = nsc_flagship_shipyard_complete
 		}
-		nsc_modmenu_game_content_on_trigger = { CATEGORY = ship SUBCAT = class ID = Flagship } #also see: 'nsc_megas_flagship.txt'
 	}
 
 	prerequisites = { "tech_Flagship_1" }
@@ -1474,7 +1461,6 @@ explorationship = {
 	}
 
 	possible_construction = {
-		nsc_modmenu_game_content_on_trigger = { CATEGORY = ship SUBCAT = class ID = explorationship } #also see: 'nsc_events_exploration_ship.3', 'nsc_events_exploration_ship.10'
 	}
 
 	min_upgrade_cost = { alloys = 5 }
